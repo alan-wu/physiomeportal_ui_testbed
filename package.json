@@ -1,0 +1,43 @@
+{
+  "name": "ui_testbad",
+  "version": "0.0.1alpha",
+  "description": "UI testing",
+  "main": "build/ui_test.js",
+  "files": [
+    "package.json",
+    "LICENSE.txt",
+    "README.md",
+    "build/ui_test.js",
+    "webpack.config.js"
+  ],
+  "scripts": {
+    "build": "webpack --mode=none",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan-wu/physiomeportal_ui_testbed.git"
+  },
+  "keywords": [
+    "library",
+    "webgl",
+    "3d",
+    "zincjs",
+    "physiome",
+    "bioengineering",
+    "modelling"
+  ],
+  "author": "Alan Wu <alan.wu@auckland.ac.nz>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alan-wu/physiomeportal_ui_testbed/issues"
+  },
+  "homepage": "https://github.com/alan-wu/physiomeportal_ui_testbed",
+  "devDependencies": {
+    "physiomeportal": "^0.3.8alpha",
+    "split.js": "^1.5.11",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {}
+}
